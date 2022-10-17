@@ -8,7 +8,7 @@ import time
 import base64
 import re
 
-bot = telebot.TeleBot("BOT_TOKEN", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
+bot = telebot.TeleBot("5782722535:AAEUKkjSV-BIcbfdxC0rgKnK52OTOUxAaBU", parse_mode=None) # You can set parse_mode by default. HTML or MARKDOWN
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
 	bot.reply_to(message, """Hehe Boi, Send me a Instagram Link
